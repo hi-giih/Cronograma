@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/conteudo.css");
+
+
+:root{
+   --cor_corpo: rgba(239, 214, 214, 0.5);
+   --cor_cabecalho: #E9CBCB;
+   --cor_menu: #E9CBCB;
+   --cor_selecao:  #D9D9D9;
+   --cor_cartao: #F0DBDB;
+   --cor_fonte: #253F56;
+   --cor_fonte_alternativa:  #FFFFFF;
+   --cor_pesquisa: #253F56;
+   --fonte_principal: "Poppins";
+}
+
+
+body{
+    background-color:  var(--cor_corpo);
+    font-family: var(--fonte_principal);
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,41 @@
+# Guia de estilos
+
+Toda a estilização que será usada no projeto dentro do figma.
+
+[Link do projeto no figma](https://www.figma.com/file/YVuEP1okGif3NV8sPhgH2i/Untitled?node-id=0%3A1&t=hO2jEQEJo4IAGvdD-0)
+
+
+
+## Fonte
+```html
+Poppins:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+```
+```CSS
+font-family: 'Poppins', sans-serif;
+```
+
+
+
+
+## Cores
+```Desktop
+corpo: rgba(239, 214, 214, 0.5);
+cabeçalho: #E9CBCB;
+menu: #E9CBCB;
+Seleção:  #D9D9D9;
+cartão: #F0DBDB;
+fonte: #253F56;
+fonte alternativa:  #FFFFFF;
+
+
+
+
+
+## Tamanhos
+Tamanho do dispositivo mobile: `360px`
+Tamanho do dispositivo desktop: `1440px`
+
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assest/resetcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assest/styles.css">
+    <title>Nome do site</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container_cabecalho">
+            <img src="assest/img/Logo.png" alt="Logo da página" class="img_cabecalho">
+            <ul class="lista_cabecalho">
+                <li class="link_cabecalho">
+                    <a href="#" class="lista_link_cabecalho">Home</a> 
+                </li>
+                <li class="link_cabecalho"> 
+                    <a href="#" class="lista_link_cabecalho">Curvaturas</a> 
+                </li>
+                <li class="link_cabecalho"> 
+                    <a href="#" class="lista_link_cabecalho">Aplicativo</a> 
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="Selecao_banner">
+        <div class="banner">
+            <h1 class="titulo_banner">Texto Titulo</h1>
+            <p class="paragrafo_baner">Texto Texto</p>
+            <input type="search" class="banner_pesquisa" placeholder="Texto">
+        </div>
+    </section>
+
+    <section class="Selecao1">
+        <div class="selecao1_cronograma">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assest/img/Criar Img.png" alt="Texto explicativo"></div>
+                    <div class="swiper-slide"><img src="assest/img/Criar Img.png" alt="Texto explicativo"></div>
+                    <div class="swiper-slide"><img src="assest/img/Criar Img.png" alt="Texto explicativo"></div>
+                    <div class="swiper-slide"><img src="assest/img/Criar Img.png" alt="Texto explicativo"></div>
+                    <div class="swiper-slide"><img src="assest/img/Criar Img.png" alt="Texto explicativo"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card_cronograma">
+                <!-- primeira linha -->
+                <div class="card">
+                    <h2 class="card_titulo">Você sabia que ...</h3>
+                    <!-- primeira coluna -->
+                    <div class="card_descricao">
+                        <p class="descricao_texto">Texto Texto Texto</p>
+                    </div>
+                    <!-- segunda coluna -->
+                    <img src="assest/img/Criar Img.png" alt="Imagem explicativa" class="descricao_img">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+.container_cabecalho{
+    display: flex;
+    color: var(--cor_fonte);
+    font-weight: 800;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor_cabecalho);
+
+}
+
+.lista_cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.link_cabecalho, .img_cabecalho{
+    margin: 1em 3em 1em 3em;
+}
+
+.lista_link_cabecalho{
+    text-decoration: none;
+    color: var(--cor_fonte);
+}

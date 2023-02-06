@@ -1,0 +1,18 @@
+.banner_app{
+    display: flex;
+    background-color:var(--cor_cartao) ;
+    color: var(--cor_fonte);
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em 0 2em 0;
+}
+
+.descricao_banner_app{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 3em;
+}
+
+.descricao_banner_app_titulo{
+    font-weight: 800;
+}

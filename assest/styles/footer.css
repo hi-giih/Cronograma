@@ -1,0 +1,8 @@
+hr{
+    margin-top: 5em;
+}
+
+.rodape{
+    background: var(--cor_cartao);
+    padding: 1em;
+}

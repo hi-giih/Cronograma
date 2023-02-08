@@ -1,0 +1,14 @@
+.curiosidades{
+    margin: 3em;
+    text-align: center;
+    padding: 1em;
+}
+
+.titulo_curiosidades{
+    font-weight: 800;
+    font-size: 18px;
+    font-family: var(--fonte_principal);
+    color: var(--cor_fonte);
+    text-align: center;
+    padding: 0 0 1em 0;
+}

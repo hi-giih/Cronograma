@@ -1,8 +1,21 @@
 .Cu_selecao5{
     display: flex;
+    margin: 5em 3em 5em 3em;
+    justify-content: space-around;
 }
 
-.curvaturaA{
-    display: flex;
+
+.tipo_curvatura{
+    background: var(--cor_cartao);
+    padding: 2em 8em;
+}
+
+.titulo_selecao, .titulo_curvatura{
+    color: var(--cor_fonte);
+    font-weight: 800;
+    font-size: 18px;
+    font-family: var(--fonte_principal);
+    text-align:  center;
     padding: 1em;
 }
+

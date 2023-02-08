@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--cor_cabecalho);
-
 }
 
 .lista_cabecalho{
@@ -16,9 +15,11 @@
 
 .link_cabecalho, .img_cabecalho{
     margin: 1em 3em 1em 3em;
+    display: block;
 }
 
 .lista_link_cabecalho{
     text-decoration: none;
     color: var(--cor_fonte);
 }
+

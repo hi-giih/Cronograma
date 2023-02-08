@@ -1,10 +1,12 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/bannerApp.css");
-@import url("styles/selecao1.css");
-@import url("styles/selecao2.css");
-@import url("styles/selecao3.css");
-@import url("styles/selecao4.css");
+@import url("styles/In_selecao1.css");
+@import url("styles/In_selecao2.css");
+@import url("styles/In_selecao3.css");
+@import url("styles/In_selecao4.css");
+@import url("styles/Cu_selecao5.css");
+
 
 :root{
    --cor_corpo: rgba(239, 214, 214, 0.5);

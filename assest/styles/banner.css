@@ -2,6 +2,7 @@
     background-color: var(--cor_cartao);
     color: var(--cor_fonte);
     text-align: center;
+    padding: 0 0 2em 0;
 
 }
 
